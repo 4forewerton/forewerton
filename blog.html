@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--
-  Name: Snow - Minimal & Clean Portfolio HTML Template
+  Name: Forewerton - Minimal & Clean Portfolio HTML
   Version: 1.1.0
-  Author: nK, unvab
-  Website: https://nkdev.info, http://unvab.com/
+  Author: forewerton
+  Website: https://forewerton.com.br
   Purchase: https://nkdev.info
   Support: https://nk.ticksy.com
   License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
@@ -16,7 +16,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Forewerton | Portfolio</title>
+    <title>Forewerton | Blog</title>
 
     <meta name="description" content="Forewerton - Portfolio">
     <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
@@ -29,8 +29,7 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet"
-        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -75,50 +74,51 @@
 <body>
 
     <header class="nk-header nk-header-opaque">
+        <!--
+        START: Navbar
 
-        <nav class="nk-navbar nk-navbar-top">
-            <div class="container">
-                <div class="nk-nav-table">
+        Additional Classes:
+            .nk-navbar-lg
+            .nk-navbar-sticky
+            .nk-navbar-autohide
+            .nk-navbar-transparent
+            .nk-navbar-transparent-always
+            .nk-navbar-white-text-on-top
+    -->
+    <nav class="nk-navbar nk-navbar-top">
+        <div class="container">
+            <div class="nk-nav-table">
 
-                    <a href="index.html" class="nk-nav-logo">
-                        <img src="assets/images/logo.svg" alt="" width="85">
-                    </a>
+                <a href="index.html" class="nk-nav-logo">
+                    <img src="assets/images/logo.svg" alt="" width="85">
+                </a>
 
-                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
-                        <li class="active">
-                            <a href="index.html">Início</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        <li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        <li>
-                            <a href="contato.html">Contato</a>
-                        </li>
-                    </ul>
+                <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                    <li class="active">
+                        <a href="index.html">início</a>
+                    </li>
+                    <li>
+                        <a href="news.html">Blog</a>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
 
-                    <ul class="nk-nav nk-nav-right nk-nav-icons">
-                        <li class="single-icon hidden-lg-up">
-                            <a href="#" class="nk-navbar-full-toggle">
-                                <span class="nk-icon-burger">
-                                    <span class="nk-t-1"></span>
-                                    <span class="nk-t-2"></span>
-                                    <span class="nk-t-3"></span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="nk-nav nk-nav-right nk-nav-icons">
+                    <li class="single-icon hidden-lg-up">
+                        <a href="#" class="nk-navbar-full-toggle">
+                            <span class="nk-icon-burger">
+                                <span class="nk-t-1"></span>
+                                <span class="nk-t-2"></span>
+                                <span class="nk-t-3"></span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- END: Navbar -->
-
-    </header>
-
-
-
-
+        </div>
+    </nav>
+    <!-- END: Navbar -->
     <!--
     START: Navbar Mobile
 
@@ -164,11 +164,11 @@
                 <div class="container">
                     <div class="nk-nav-social">
                         <ul>
-                            <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -180,127 +180,57 @@
 
     <div class="nk-main">
 
+
         <div class="container">
             <!-- START: Filter -->
-            <div class="nk-pagination nk-pagination-nobg nk-pagination-center nk-isotope-filter-active">
+            <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
                 <a href="#nk-toggle-filter">
                     <span class="nk-icon-squares"></span>
                 </a>
             </div>
-            <ul class="nk-isotope-filter nk-isotope-filter-active">
+            <ul class="nk-isotope-filter">
                 <li class="active" data-filter="*">Todos</li>
-                <li data-filter="uxui">UX/UI</li>
-                <li data-filter="adwords">Adwords</li>
-                <li data-filter="frontend">Front-end</li>
+                <li data-filter="uxuidesign">UX/UI Design</li>
+                <li data-filter="direcaoarte">Adwords</li>
             </ul>
             <!-- END: Filter -->
 
-            <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols nk-isotope-gap">
+            <!-- START: Posts List -->
+            <div class="nk-blog-isotope nk-isotope nk-isotope-gap nk-isotope-3-cols">
 
 
-                <div class="nk-isotope-item" data-filter="adwords">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-1.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-1-sm.jpg')"></div>
+                <!-- START: Post -->
+                <!-- <div class="nk-isotope-item" data-filter="uxuidesign">
+                    <div class="nk-blog-post">
+                        <div class="nk-post-thumb">
+                            <a href="blog-single.html">
+                                <img src="assets/images/post-1-mid.jpg" alt="" class="nk-img-stretch">
+                            </a>
+                            <div class="nk-post-category"><a href="#">UX/UI turismo</a></div>
                         </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Bag adwords</h2>
-                                <div class="portfolio-item-category">adwords</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        <h2 class="nk-post-title h4"><a href="#">Something I need to tell you</a></h2>
 
-
-                <div class="nk-isotope-item" data-filter="uxui">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-lg">
-                        <a href="work-single-2.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-2-sm.jpg')"></div>
+                        <div class="nk-post-date">
+                            September 18, 2016
                         </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Business Card</h2>
-                                <div class="portfolio-item-category">uxui</div>
-                            </div>
+
+                        <div class="nk-post-text">
+                            <p>That female isn't midst divide kind upon seas lights greater green creature lights brought.</p>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="uxui">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-lg">
-                        <a href="work-single-5.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-5-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Minimal Bag</h2>
-                                <div class="portfolio-item-category">uxui</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="frontend">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-4.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-4-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Modern T-Shirt</h2>
-                                <div class="portfolio-item-category">frontend</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="adwords">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-7-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Vinyl Record</h2>
-                                <div class="portfolio-item-category">adwords</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="frontend">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-9-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Clean &amp; Groovy</h2>
-                                <div class="portfolio-item-category">frontend</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
+                <!-- END: Post -->
 
             </div>
+            <!-- END: Posts List -->
 
             <div class="nk-gap-4"></div>
+
         </div>
 
         <!-- START: Pagination -->
         <div class="nk-pagination nk-pagination-center">
-            <a href="#">Load More Works</a>
+            <a href="#">Ler mais histórias</a>
         </div>
         <!-- END: Pagination -->
 
@@ -312,6 +242,7 @@
     Additional Classes:
         .nk-footer-transparent
 -->
+        <!-- START: Footer -->
         <footer class="nk-footer">
             <div class="nk-footer-cont">
                 <div class="container text-center">

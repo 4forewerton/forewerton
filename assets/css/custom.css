@@ -7,3 +7,17 @@
 .l-titleCenter {
     margin: 0 auto;
 }
+
+.nk-btn {
+    background: #FA7268;
+}
+
+.nk-btn-second {
+    background: #333;
+}
+
+.h1, 
+.fa-heart, 
+.display-4 {
+    color: #FA7268;
+}

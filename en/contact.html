@@ -10,15 +10,15 @@
   Copyright 2017.
 -->
 
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Forewerton | Blog</title>
+    <title>Forewerton | Contato</title>
 
-    <meta name="description" content="Forewerton - Clean & Minimal Portfolio HTML template.">
+    <meta name="description" content="Forewerton - Portfolio">
     <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
     <meta name="author" content="">
 
@@ -98,7 +98,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="news.html">Blog</a>
+                        <a href="news.html">News</a>
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
@@ -119,6 +119,12 @@
         </div>
     </nav>
     <!-- END: Navbar -->
+
+    </header>
+
+
+
+
     <!--
     START: Navbar Mobile
 
@@ -164,11 +170,11 @@
                 <div class="container">
                     <div class="nk-nav-social">
                         <ul>
-                                <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -177,71 +183,56 @@
     </nav>
     <!-- END: Navbar Mobile -->
 
-
     <div class="nk-main">
 
-
+        <!-- START: Contact Info -->
         <div class="container">
-            <!-- START: Filter -->
-            <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
-                <a href="#nk-toggle-filter">
-                    <span class="nk-icon-squares"></span>
-                </a>
+            <div class="nk-gap-5 mnt-10"></div>
+            <div class="row vertical-gap">
+                <div class="col-lg-5">
+                    <!-- START: Info -->
+                    <h2 class="display-4">Info Contact:</h2>
+                    <div class="nk-gap mnt-3"></div>
+
+                    <ul class="nk-contact-info">
+                        <li>
+                            <strong>Address:</strong> São Paulo, SP</li>
+                        <li>
+                            <strong>Phone:</strong> +55 11 94207-1936</li>
+                        <li>
+                            <strong>Email:</strong> hello@forewerton.com.br</li>
+                    </ul>
+                    <!-- END: Info -->
+                </div>
+                <div class="col-lg-7">
+                    <!-- START: Form -->
+                    <form action="php/contact.php" class="nk-form nk-form-ajax">
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                            </div>
+                        </div>
+
+                        <div class="nk-gap-1"></div>
+                        <input type="text" class="form-control required" name="title" placeholder="Your Title">
+
+                        <div class="nk-gap-1"></div>
+                        <textarea class="form-control required" name="message" rows="8" placeholder="Your Comment" aria-required="true"></textarea>
+                        <div class="nk-gap-1"></div>
+                        <div class="nk-form-response-success"></div>
+                        <div class="nk-form-response-error"></div>
+                        <button class="nk-btn">Send Message</button>
+                    </form>
+                    <!-- END: Form -->
+                </div>
             </div>
-            <ul class="nk-isotope-filter">
-                <li class="active" data-filter="*">All</li>
-                <li data-filter="uxuidesign">UX/UI Design</li>
-                <li data-filter="direcaoarte">Adwords</li>
-            </ul>
-            <!-- END: Filter -->
-
-            <!-- START: Posts List -->
-            <div class="nk-blog-isotope nk-isotope nk-isotope-gap nk-isotope-3-cols">
-
-
-                <!-- START: Post -->
-                <!-- <div class="nk-isotope-item" data-filter="uxuidesign">
-                    <div class="nk-blog-post">
-                        <div class="nk-post-thumb">
-                            <a href="blog-single.html">
-                                <img src="assets/images/post-1-mid.jpg" alt="" class="nk-img-stretch">
-                            </a>
-                            <div class="nk-post-category"><a href="#">UX/UI turismo</a></div>
-                        </div>
-                        <h2 class="nk-post-title h4"><a href="#">Something I need to tell you</a></h2>
-
-                        <div class="nk-post-date">
-                            September 18, 2016
-                        </div>
-
-                        <div class="nk-post-text">
-                            <p>That female isn't midst divide kind upon seas lights greater green creature lights brought.</p>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- END: Post -->
-
-            </div>
-            <!-- END: Posts List -->
-
-            <div class="nk-gap-4"></div>
-
+            <div class="nk-gap-5"></div>
         </div>
+        <!-- END: Contact Info -->
 
-        <!-- START: Pagination -->
-        <div class="nk-pagination nk-pagination-center">
-            <a href="#">Read more articles</a>
-        </div>
-        <!-- END: Pagination -->
-
-
-
-        <!--
-    START: Footer
-
-    Additional Classes:
-        .nk-footer-transparent
--->
         <!-- START: Footer -->
         <footer class="nk-footer">
             <div class="nk-footer-cont">
