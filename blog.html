@@ -29,7 +29,8 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet"
+        type="text/css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -73,6 +74,16 @@
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44062500-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-44062500-11');
+    </script>
+
 </head>
 
 
@@ -95,122 +106,122 @@
             .nk-navbar-transparent-always
             .nk-navbar-white-text-on-top
     -->
-    <nav class="nk-navbar nk-navbar-top">
-        <div class="container">
-            <div class="nk-nav-table">
+        <nav class="nk-navbar nk-navbar-top">
+            <div class="container">
+                <div class="nk-nav-table">
 
-                <a href="index.html" class="nk-nav-logo">
-                    <img src="assets/images/logo.svg" alt="" width="85">
-                </a>
+                    <a href="index.html" class="nk-nav-logo">
+                        <img src="assets/images/logo.svg" alt="" width="85">
+                    </a>
 
-                <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
-                    <li class="active">
-                        <a href="index.html">início</a>
-                    </li>
-                    <li>
-                        <a href="news.html">Blog</a>
-                    <li>
-                        <a href="contato.html">Contato</a>
-                    </li>
-                </ul>
+                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                        <li class="active">
+                            <a href="index.html">início</a>
+                        </li>
+                        <li>
+                            <a href="news.html">Blog</a>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
 
-                <ul class="nk-nav nk-nav-right nk-nav-icons">
-                    <li class="single-icon hidden-lg-up">
-                        <a href="#" class="nk-navbar-full-toggle">
-                            <span class="nk-icon-burger">
-                                <span class="nk-t-1"></span>
-                                <span class="nk-t-2"></span>
-                                <span class="nk-t-3"></span>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
+                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                        <li class="single-icon hidden-lg-up">
+                            <a href="#" class="nk-navbar-full-toggle">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- END: Navbar -->
-    <!--
+        </nav>
+        <!-- END: Navbar -->
+        <!--
     START: Navbar Mobile
 
     Additional Classes:
         .nk-navbar-align-center
         .nk-navbar-align-right
 -->
-    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
-        <div class="nk-navbar-bg">
-            <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
-        </div>
-        <div class="nk-nav-table">
-            <div class="nk-nav-row">
-                <div class="container">
-                    <div class="nk-nav-header">
-
-                        <div class="nk-nav-logo">
-                            <a href="index.html" class="nk-nav-logo">
-                                <img src="assets/images/logo-light.svg" alt="" width="85">
-                            </a>
-                        </div>
-
-                        <div class="nk-nav-close nk-navbar-full-toggle">
-                            <span class="nk-icon-close"></span>
-                        </div>
-                    </div>
-                </div>
+        <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
+            <div class="nk-navbar-bg">
+                <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
             </div>
-            <div class="nk-nav-row-full nk-nav-row">
-                <div class="nano">
-                    <div class="nano-content">
-                        <div class="nk-nav-table">
-                            <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
-                                <ul class="nk-nav">
-                                    <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
-                                </ul>
+            <div class="nk-nav-table">
+                <div class="nk-nav-row">
+                    <div class="container">
+                        <div class="nk-nav-header">
+
+                            <div class="nk-nav-logo">
+                                <a href="index.html" class="nk-nav-logo">
+                                    <img src="assets/images/logo-light.svg" alt="" width="85">
+                                </a>
+                            </div>
+
+                            <div class="nk-nav-close nk-navbar-full-toggle">
+                                <span class="nk-icon-close"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="nk-nav-row">
-                <div class="container">
-                    <div class="nk-nav-social">
-                        <ul>
+                <div class="nk-nav-row-full nk-nav-row">
+                    <div class="nano">
+                        <div class="nano-content">
+                            <div class="nk-nav-table">
+                                <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                                    <ul class="nk-nav">
+                                        <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-nav-row">
+                    <div class="container">
+                        <div class="nk-nav-social">
+                            <ul>
                                 <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
                                 <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- END: Navbar Mobile -->
+        </nav>
+        <!-- END: Navbar Mobile -->
 
 
-    <div class="nk-main">
+        <div class="nk-main">
 
 
-        <div class="container">
-            <!-- START: Filter -->
-            <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
-                <a href="#nk-toggle-filter">
-                    <span class="nk-icon-squares"></span>
-                </a>
-            </div>
-            <ul class="nk-isotope-filter">
-                <li class="active" data-filter="*">Todos</li>
-                <li data-filter="uxuidesign">UX/UI Design</li>
-                <li data-filter="direcaoarte">Adwords</li>
-            </ul>
-            <!-- END: Filter -->
+            <div class="container">
+                <!-- START: Filter -->
+                <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+                    <a href="#nk-toggle-filter">
+                        <span class="nk-icon-squares"></span>
+                    </a>
+                </div>
+                <ul class="nk-isotope-filter">
+                    <li class="active" data-filter="*">Todos</li>
+                    <li data-filter="uxuidesign">UX/UI Design</li>
+                    <li data-filter="direcaoarte">Adwords</li>
+                </ul>
+                <!-- END: Filter -->
 
-            <!-- START: Posts List -->
-            <div class="nk-blog-isotope nk-isotope nk-isotope-gap nk-isotope-3-cols">
+                <!-- START: Posts List -->
+                <div class="nk-blog-isotope nk-isotope nk-isotope-gap nk-isotope-3-cols">
 
 
-                <!-- START: Post -->
-                <!-- <div class="nk-isotope-item" data-filter="uxuidesign">
+                    <!-- START: Post -->
+                    <!-- <div class="nk-isotope-item" data-filter="uxuidesign">
                     <div class="nk-blog-post">
                         <div class="nk-post-thumb">
                             <a href="blog-single.html">
@@ -229,114 +240,114 @@
                         </div>
                     </div>
                 </div> -->
-                <!-- END: Post -->
+                    <!-- END: Post -->
+
+                </div>
+                <!-- END: Posts List -->
+
+                <div class="nk-gap-4"></div>
 
             </div>
-            <!-- END: Posts List -->
 
-            <div class="nk-gap-4"></div>
-
-        </div>
-
-        <!-- START: Pagination -->
-        <div class="nk-pagination nk-pagination-center">
-            <a href="#">Ler mais histórias</a>
-        </div>
-        <!-- END: Pagination -->
+            <!-- START: Pagination -->
+            <div class="nk-pagination nk-pagination-center">
+                <a href="#">Ler mais histórias</a>
+            </div>
+            <!-- END: Pagination -->
 
 
 
-        <!--
+            <!--
     START: Footer
 
     Additional Classes:
         .nk-footer-transparent
 -->
-        <!-- START: Footer -->
-        <footer class="nk-footer">
-            <div class="nk-footer-cont">
-                <div class="container text-center">
-                    <div class="nk-footer-social">
-                        <ul>
-                            <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
+            <!-- START: Footer -->
+            <footer class="nk-footer">
+                <div class="nk-footer-cont">
+                    <div class="container text-center">
+                        <div class="nk-footer-social">
+                            <ul>
+                                <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
 
-                    <div class="nk-footer-text">
-                        <p>2019 &copy; Todos os direitos reservados Forewerton</p>
+                        <div class="nk-footer-text">
+                            <p>2019 &copy; Todos os direitos reservados Forewerton</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        <!-- END: Footer -->
+            </footer>
+            <!-- END: Footer -->
 
 
-    </div>
-
-
-
-
-    <!-- START: Scripts -->
+        </div>
 
 
 
-    <!-- GSAP -->
-    <script src="assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
-    <script src="assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
 
-    <!-- Bootstrap -->
-    <script src="assets/bower_components/tether/dist/js/tether.min.js"></script>
-    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- START: Scripts -->
 
-    <!-- nK Share -->
-    <script src="assets/plugins/nk-share/nk-share.js"></script>
 
-    <!-- Sticky Kit -->
-    <script src="assets/bower_components/sticky-kit/dist/sticky-kit.min.js"></script>
 
-    <!-- Jarallax -->
-    <script src="assets/bower_components/jarallax/dist/jarallax.min.js"></script>
-    <script src="assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- GSAP -->
+        <script src="assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+        <script src="assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
 
-    <!-- Flickity -->
-    <script src="assets/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/bower_components/tether/dist/js/tether.min.js"></script>
+        <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- Isotope -->
-    <script src="assets/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+        <!-- nK Share -->
+        <script src="assets/plugins/nk-share/nk-share.js"></script>
 
-    <!-- Photoswipe -->
-    <script src="assets/bower_components/photoswipe/dist/photoswipe.min.js"></script>
-    <script src="assets/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+        <!-- Sticky Kit -->
+        <script src="assets/bower_components/sticky-kit/dist/sticky-kit.min.js"></script>
 
-    <!-- Jquery Form -->
-    <script src="assets/bower_components/jquery-form/dist/jquery.form.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/bower_components/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>
 
-    <!-- Jquery Validation -->
-    <script src="assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+        <!-- Flickity -->
+        <script src="assets/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
 
-    <!-- Hammer.js -->
-    <script src="assets/bower_components/hammer.js/hammer.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
 
-    <!-- Social Likes -->
-    <script src="assets/bower_components/social-likes/dist/social-likes.min.js"></script>
+        <!-- Photoswipe -->
+        <script src="assets/bower_components/photoswipe/dist/photoswipe.min.js"></script>
+        <script src="assets/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
 
-    <!-- NanoSroller -->
-    <script src="assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+        <!-- Jquery Form -->
+        <script src="assets/bower_components/jquery-form/dist/jquery.form.min.js"></script>
 
-    <!-- Keymaster -->
-    <script src="assets/bower_components/keymaster/keymaster.js"></script>
+        <!-- Jquery Validation -->
+        <script src="assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
 
-    <!-- Prism -->
-    <script src="assets/bower_components/prism/prism.js"></script>
+        <!-- Hammer.js -->
+        <script src="assets/bower_components/hammer.js/hammer.min.js"></script>
 
-    <!-- Snow -->
-    <script src="assets/js/snow.min.js"></script>
-    <script src="assets/js/snow-init.js"></script>
-    <!-- END: Scripts -->
+        <!-- Social Likes -->
+        <script src="assets/bower_components/social-likes/dist/social-likes.min.js"></script>
+
+        <!-- NanoSroller -->
+        <script src="assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+
+        <!-- Keymaster -->
+        <script src="assets/bower_components/keymaster/keymaster.js"></script>
+
+        <!-- Prism -->
+        <script src="assets/bower_components/prism/prism.js"></script>
+
+        <!-- Snow -->
+        <script src="assets/js/snow.min.js"></script>
+        <script src="assets/js/snow-init.js"></script>
+        <!-- END: Scripts -->
 
 
 </body>
