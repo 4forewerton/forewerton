@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-  Name: Forewerton - Minimal & Clean Portfolio HTML
+  Name: Forewerton - UX & UI Designer
   Version: 1.1.0
-  Author: forewerton
+  Author: Forewerton
   Website: https://forewerton.com.br
   Purchase: https://nkdev.info
   Support: https://nk.ticksy.com
@@ -10,7 +10,7 @@
   Copyright 2017.
 -->
 
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,7 +25,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Forewerton | Ux/Ui Design & Digital Marketing</title>
+    <title>Forewerton | Ux/Ui Designer</title>
 
     <meta name="description" content="Forewerton - Portfolio">
     <meta name="keywords" content="portfolio, clean, minimal, blog, template, portfolio website">
@@ -38,8 +38,8 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700" rel="stylesheet"
-        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700"
+        rel="stylesheet" type="text/css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -48,7 +48,8 @@
     <link rel="stylesheet" href="assets/bower_components/fontawesome/css/font-awesome.min.css">
 
     <!-- Stroke 7 -->
-    <link rel="stylesheet" href="assets/bower_components/pixeden-stroke-7-icon/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet"
+        href="assets/bower_components/pixeden-stroke-7-icon/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
 
     <!-- Flickity -->
     <link rel="stylesheet" href="assets/bower_components/flickity/dist/flickity.min.css">
@@ -106,21 +107,26 @@
 
         <nav class="nk-navbar nk-navbar-top">
             <div class="container">
-                <div class="nk-nav-table">
+                <div class="nk-nav-table nav-stroke">
 
                     <a href="index.html" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="85">
                     </a>
 
                     <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
-                        <li class="active">
-                            <a href="index.html">Início</a>
+                        <li class="l-active">
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="blog.html">Blog</a>
+                            <a href="portfolio.html">Portfolio</a>
                         <li>
-                            <a href="contato.html">Contato</a>
+
+                        <li class="l-switch-language">
+                            <a href="index-pt.html">PT</a>
                         </li>
+                        <li class="l-switch-language">
+                            <a href="index.html">EN</a>
+                        <li>
                     </ul>
 
                     <ul class="nk-nav nk-nav-right nk-nav-icons">
@@ -143,11 +149,7 @@
 
     <!--
     START: Navbar Mobile
-
-    Additional Classes:
-        .nk-navbar-align-center
-        .nk-navbar-align-right
--->
+    -->
     <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
         <div class="nk-navbar-bg">
             <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
@@ -188,8 +190,10 @@
                         <ul>
                             <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i
+                                        class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a>
+                            </li>
                             <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
@@ -200,189 +204,153 @@
     <!-- END: Navbar Mobile -->
 
 
-    <div class="nk-main">
-
-        <!-- START: Header Title -->
-        <!--
-    Additional Classes:
-        .nk-header-title-sm
-        .nk-header-title-md
-        .nk-header-title-lg
-        .nk-header-title-xl
-        .nk-header-title-full
-        .nk-header-title-parallax
-        .nk-header-title-parallax-opacity
--->
-        <div class="nk-header-title nk-header-title-lg nk-header-title-parallax nk-header-title-parallax-opacity">
-            <div class="bg-image">
-                <div style="background-image: url('assets/images/header-about.jpg');"></div>
-                <div class="bg-image-overlay" style="background-color: rgba(12, 12, 12, 0.6);"></div>
-            </div>
-            <div class="nk-header-table">
-                <div class="nk-header-table-cell">
-                    <div class="container">
-                        <h2 class="nk-subtitle text-white">I <i class="fa fa-heart" aria-hidden="true"></i> love</h2>
-                        <h1 class="nk-title display-3 text-white">Marketing & UX/UI</h1>
-                    </div>
+    <!-- START: I am -->
+    <div class="nk-box bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 d-none d-sm-block">
+                    <div class="bg-image bg-image-parallax"
+                        style="background-image: url('assets/images/about-me.jpg');"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
                 </div>
-            </div>
+                <div class="col-lg-6">
+                    <div class="nk-gap-4"></div>
 
-        </div>
+                    <div class="nk-box-4 mw-620">
+                        <h2 class="display-4">Hello, my name is Ewerton</h2>
+                        <div class="nk-gap mnt-5"></div>
 
-        <!-- END: Header Title -->
+                        <p>I am a UX/UI designer with experience designing, prototyping and developing websites and
+                            apps. At this moment I have focused my studies in the last two years on Ux Research and
+                            Strategy. </p>
 
-        <!-- START: We Are Designers -->
-        <div class="nk-box bg-white">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 d-none d-sm-block">
-                        <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/about-me.jpg');"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="nk-gap-4"></div>
-
-                        <div class="nk-box-4 mw-620">
-                            <h2 class="display-4">Sobre mim</h2>
-                            <div class="nk-gap mnt-5"></div>
-
-                            <p>Olá, eu me chamo Ewerton, mas você pode me chamar de Ton.</p>
-
-                            <p>Eu imagino que você já deva ter uma boa ideia do que eu faço, então deixe-me
-                                compartilhar com você um pouco mais sobre mim.</p>
-
-                            <p>Eu sou um cara com a mente bem aberta e que possui uma abordagem para o design e
-                                marketing um pouco atípico. Passando pelo marketing, publicidade e ux/ui design, eu
-                                nunca me limitei a somente um campo criativo, sempre me esforçando para criar e
-                                explorar novos horizontes sem esquecer pelos quais já passei. </p>
-
-                            <p>Em constante evolução, estou sempre aprendendo algo novo e crescendo como pessoa e
-                                profissional, então você pode ter certeza que trabalhar comigo será uma jornada
-                                interessante.</p>
-
-                            <p>Sou apaixonado por jogos de estratégias (sejam eles digitais ou não), leitura e nas
-                                horas vagas sou músico. Meu estilo de música preferido? Jazz, rock e R&B.</p>
-
-                            <p>E agora que você conhece um pouco mais sobre mim, como eu posso te ajudar?</p>
-                            <!-- <img src="assets/images/about-me-signature.png" alt="" class="nk-img-fit"> -->
-                        </div>
-
-                        <div class="nk-gap-4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END: We Are Designers -->
-
-        <!-- START: We Are Developers -->
-        <div class="nk-box bg-white">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 push-lg-6">
-                        <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/services-1.jpg');"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                    </div>
-                    <div class="col-lg-6 pull-lg-6">
-                        <div class="nk-gap-4"></div>
-
-                        <div class="nk-box-4 mw-620 mlauto">
-                            <h2 class="display-4">UI/UX</h2>
-                            <div class="nk-gap mnt-5"></div>
-
-                            <p>Deixe que eu faça seu app ou website de uma forma intuitiva, funcional e linda - e que
-                                atenda as necessidades dos seus usuários claro.</p>
-
-                        </div>
-
-                        <div class="nk-gap-4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END: We Are Developers -->
-
-        <!-- START: We Are Designers -->
-        <div class="nk-box bg-white">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="bg-image bg-image-parallax" style="background-image: url('assets/images/services-2.jpg');"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                        <div class="nk-gap-6"></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="nk-gap-4"></div>
-
-                        <div class="nk-box-4 mw-620">
-                            <h2 class="display-4">Marketing & Adwords</h2>
-                            <div class="nk-gap mnt-5"></div>
-
-                            <p>Você precisa de uma campanha de Google Adwords que te traga resultados positivos? E
-                                outro ponto de vista sobre sua empresa de um profissional de marketing e publicidade?</p>
-                            <p>Então você está falando com a pessoa certa.</p>
-                        </div>
-
-                        <div class="nk-gap-4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END: We Are Designers -->
-
-
-        <!-- START: Contact Me -->
-        <div class="bg-gray-2 text-center">
-            <div class="nk-gap-5 mnb-12"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <h2 class="h1">Sua vez!</h2>
-                        <div class="nk-gap-1 mnt-15"></div>
-                        <p>Entre e contato agora. Me conte um pouco sobre você também e como posso te ajudar.</p>
-                        <div class="nk-gap mnt-9"></div>
-                        <a href="contato.html" class="nk-btn nk-btn-long">Iniciar um projeto</a>
-                        <a href="contato.html" class="nk-btn nk-btn-second nk-btn-long">Enviar um email</a>
-                    </div>
-                </div>
-            </div>
-            <div class="nk-gap-5"></div>
-        </div>
-        <!-- END: Contact Me -->
-
-        <!-- START: Footer -->
-        <footer class="nk-footer">
-            <div class="nk-footer-cont">
-                <div class="container text-center">
-                    <div class="nk-footer-social">
-                        <ul>
-                            <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
+                        <ul class="c-cv">
+                            <li>
+                                <a href="forewerton-en.pdf" class="nk-btn">Download CV</a>
+                            </li>
                         </ul>
+
                     </div>
 
-                    <div class="nk-footer-text">
-                        <p>2019 &copy; Todos os direitos reservados Forewerton</p>
-                    </div>
+                    <div class="nk-gap-4"></div>
                 </div>
             </div>
-        </footer>
-        <!-- END: Footer -->
+        </div>
+    </div>
+    <!-- END: I am -->
 
+    <!-- START: About me -->
+    <div class="nk-box bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 push-lg-6">
+                    <div class="bg-image bg-image-parallax"
+                        style="background-image: url('assets/images/services-1.jpg');"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-6"></div>
+                </div>
+                <div class="col-lg-6 pull-lg-6">
+                    <div class="nk-gap-4"></div>
+
+                    <div class="nk-box-4 mw-620 mlauto">
+                        <h2 class="display-4">About me</h2>
+                        <div class="nk-gap mnt-5"></div>
+
+                        <p>Graduated in Publicity and
+                            Advertising and specializes in UI and Ux strategy, I have focused my studies in the last two
+                            years on Ux Research and Strategy. </p>
+
+                        <p>I am a passionate strategist and analyst who get concerned about what and how people think
+                            and use products daily, whether online or offline context.</p>
+
+                        <p>Besides this, I also have a background as a front-end developer where I converting prototypes
+                            that I created on Adobe XD, Figma and Invision into pixel-perfect responsive websites, apps
+                            and softwares like ERP. </p>
+
+                        <p>With knowledge and experience as an endeavor, SEO, Google Analytics and Adwords, I can
+                            resolve problems that involving more than simple screens, but real problems searching always
+                            the better alternative to reach the goals with what is possible with the current technology
+                            and stakeholders' interests.</p>
+
+                        <p>I am in love with strategy and RPG games, reading, draw and on the free time, i am a musician
+                            too. My favorite musical genre? Jazz, rock and R&B.
+                        </p>
+
+                    </div>
+
+                    <div class="nk-gap-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: About me -->
+
+
+    <!-- START: Contact Me -->
+    <div class="bg-gray-2 text-center">
+        <div class="nk-gap-5 mnb-12"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="h1">Wanna talk to me? :D</h2>
+                    <div class="nk-gap-1 mnt-15"></div>
+                    <div class="nk-gap mnt-9"></div>
+                    <!-- START: Form -->
+                    <form action="php/contact.php" class="nk-form nk-form-ajax">
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control required" name="name" placeholder="Your name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="nk-gap-1"></div>
+                        <textarea class="form-control required" name="message" rows="8" placeholder="Your message"
+                            aria-required="true"></textarea>
+                        <div class="nk-gap-1"></div>
+                        <div class="nk-form-response-success"></div>
+                        <div class="nk-form-response-error"></div>
+                        <button class="nk-btn">Send Message</button>
+                    </form>
+                    <!-- END: Form -->
+
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Contact Me -->
+
+    <!-- START: Footer -->
+    <footer class="nk-footer">
+        <div class="nk-footer-cont">
+            <div class="container text-center">
+                <div class="nk-footer-social">
+                    <ul>
+                        <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.behance.net/uxforewerton"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="nk-footer-text">
+                    <p>&copy; Forewerton</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer -->
 
     </div>
-
-
 
 
     <!-- START: Scripts -->

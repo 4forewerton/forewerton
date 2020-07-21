@@ -10,7 +10,7 @@
   Copyright 2017.
 -->
 
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -86,36 +86,32 @@
 
 </head>
 
-
-<!--
-    Additional Classes:
-        .nk-bg-gradient
--->
-
 <body>
 
     <header class="nk-header nk-header-opaque">
 
         <nav class="nk-navbar nk-navbar-top">
             <div class="container">
-                <div class="nk-nav-table">
+                <div class="nk-nav-table nav-stroke">
 
                     <a href="index.html" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="85">
                     </a>
 
                     <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
-                        <li class="active">
-                            <a href="index.html">Início</a>
-                        </li>
                         <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="l-active">
                             <a href="portfolio.html">Portfolio</a>
                         <li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        <li>
-                            <a href="contato.html">Contato</a>
+
+                        <li class="l-switch-language">
+                            <a href="index-pt.html">PT</a>
                         </li>
+                        <li class="l-switch-language">
+                            <a href="index.html">EN</a>
+                        <li>
                     </ul>
 
                     <ul class="nk-nav nk-nav-right nk-nav-icons">
@@ -136,16 +132,8 @@
 
     </header>
 
+    <!--  START: Navbar Mobile  -->
 
-
-
-    <!--
-    START: Navbar Mobile
-
-    Additional Classes:
-        .nk-navbar-align-center
-        .nk-navbar-align-right
--->
     <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
         <div class="nk-navbar-bg">
             <div class="bg-image" style="background-image: url('assets/images/bg-menu.jpg')"></div>
@@ -185,7 +173,7 @@
                     <div class="nk-nav-social">
                         <ul>
                             <li><a href="https://twitter.com/forewerton"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.behance.net/forewerton43t"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="https://www.behance.net/uxforewerton"><i class="fa fa-behance"></i></a></li>
                             <li><a href="https://br.pinterest.com/ewertonjesus/pins/"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/forewerton/"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://www.instagram.com/forewerton/"><i class="fa fa-instagram"></i></a></li>
@@ -208,106 +196,91 @@
                 </a>
             </div>
             <ul class="nk-isotope-filter nk-isotope-filter-active">
-                <li class="active" data-filter="*">Todos</li>
+                <li class="active" data-filter="*">All</li>
                 <li data-filter="uxui">UX/UI</li>
-                <li data-filter="adwords">Adwords</li>
-                <li data-filter="frontend">Front-end</li>
+                <li data-filter="ui-prototype">Prototype</li>
+                <!-- <li data-filter="frontend">Front-end</li> -->
+                <li data-filter="article">Article</li>
             </ul>
             <!-- END: Filter -->
 
             <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols nk-isotope-gap">
 
 
-                <div class="nk-isotope-item" data-filter="adwords">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-1.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-1-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Bag adwords</h2>
-                                <div class="portfolio-item-category">adwords</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="nk-isotope-item" data-filter="uxui">
                     <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-lg">
-                        <a href="work-single-2.html" class="nk-portfolio-item-link"></a>
+                        <a href="https://www.uxfol.io/project/04ce4aeb/Uma-nova-maneira-de-financiar-um-im-vel" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-2-sm.jpg')"></div>
+                            <div style="background-image: url('assets/images/lugar-seguro-lg.jpg')"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Business Card</h2>
-                                <div class="portfolio-item-category">uxui</div>
+                                <h2 class="portfolio-item-title h3">Uma nova maneira de financiar um imóvel</h2>
+                                <div class="portfolio-item-category">Grandes mudanças pensando em você</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="uxui">
-                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-lg">
-                        <a href="work-single-5.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-5-sm.jpg')"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Minimal Bag</h2>
-                                <div class="portfolio-item-category">uxui</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="frontend">
+                <div class="nk-isotope-item" data-filter="article">
                     <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-4.html" class="nk-portfolio-item-link"></a>
+                        <a href="https://medium.com/@forewerton/ux-research-%C3%A9-um-processo-de-refinamento-cont%C3%ADnuo-6bf634af8451" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-4-sm.jpg')"></div>
+                            <div style="background-image: url('assets/images/uxresearch-sm.jpg')"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Modern T-Shirt</h2>
-                                <div class="portfolio-item-category">frontend</div>
+                                <h2 class="portfolio-item-title h3">UX Research é um processo de refinamento contínuo</h2>
+                                <div class="portfolio-item-category">Não há pergunta certa ou errada. O que importa são os aprendizados que elas geram e as suposições que ela valida</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="adwords">
+                <div class="nk-isotope-item" data-filter="article">
                     <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="https://medium.com/@forewerton/um-estudo-sobre-como-facilitar-a%C3%A7%C3%B5es-simples-no-aplicativo-do-bradesco-no-dia-a-dia-d456a82a8071" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-7-sm.jpg')"></div>
+                            <div style="background-image: url('assets/images/bradesco-pt1-sm.jpg')"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Vinyl Record</h2>
-                                <div class="portfolio-item-category">adwords</div>
+                                <h2 class="portfolio-item-title h3">Case UX/UI — Bradesco app parte 1</h2>
+                                <div class="portfolio-item-category">Um estudo sobre como facilitar ações as do usuário no aplicativo do Bradesco no dia a dia</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="frontend">
+                <div class="nk-isotope-item" data-filter="ui-prototype">
                     <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="https://www.figma.com/proto/0DBGg53sbN19zQzkLWKXr3/Prototipo-Case-Financiamento?node-id=19763%3A0&viewport=1162%2C-683%2C0.5&scaling=scale-down" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-9-sm.jpg')"></div>
+                            <div style="background-image: url('assets/images/lugar-seguro-sm.jpg')"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Clean &amp; Groovy</h2>
-                                <div class="portfolio-item-category">frontend</div>
+                                <h2 class="portfolio-item-title h3">Lugar Seguro</h2>
+                                <div class="portfolio-item-category">App de gerenciamento de financiamento imobiliário</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="nk-isotope-item" data-filter="ui-prototype">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-2 nk-portfolio-item-sm">
+                        <a href="https://xd.adobe.com/view/c29fdfee-9adb-4c48-589a-96d4cd72e6c2-b4ae/?fullscreen" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/forever-sm.jpg')"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Forever Living</h2>
+                                <div class="portfolio-item-category">App de vendas v1 </div>
                             </div>
                         </div>
                     </div>
@@ -319,19 +292,15 @@
         </div>
 
         <!-- START: Pagination -->
-        <div class="nk-pagination nk-pagination-center">
-            <a href="#">Load More Works</a>
-        </div>
+        
+        <!-- <div class="nk-pagination nk-pagination-center">
+            <a href="#">Ver mais itens</a>
+        </div> -->
+
         <!-- END: Pagination -->
 
 
-
-        <!--
-    START: Footer
-
-    Additional Classes:
-        .nk-footer-transparent
--->
+        <!--  START: Footer  -->
         <footer class="nk-footer">
             <div class="nk-footer-cont">
                 <div class="container text-center">
@@ -346,22 +315,18 @@
                     </div>
 
                     <div class="nk-footer-text">
-                        <p>2019 &copy; Todos os direitos reservados Forewerton</p>
+                        <p>&copy; Forewerton</p>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- END: Footer -->
 
-
     </div>
 
 
 
-
     <!-- START: Scripts -->
-
-
 
     <!-- GSAP -->
     <script src="assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
