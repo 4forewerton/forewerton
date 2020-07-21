@@ -21,3 +21,63 @@
 .display-4 {
     color: #FA7268;
 }
+
+.form-control {
+    border: 1px solid #dedede;
+}
+
+/* NAVIGATION */
+
+    .nav-stroke ul li a,
+    .nav-stroke ul li a:after,
+    .nav-stroke ul li a:before {
+        transition: all .5s;
+    }
+    .nav-stroke ul li a:hover {
+        color: #555;
+    }
+
+  .nav-stroke ul li a
+   {
+    position: relative;
+  }
+  .nav-stroke ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #FA7268;
+    height: 1px;
+  }
+  .nav-stroke ul li a:hover:after {
+    width: 100%;
+  }
+
+  .l-active {
+    border-bottom: 3px solid #FA7268;
+  }
+
+  .l-switch-language {
+    font-size: 0.76rem;
+    margin-top: -50px;
+    padding-left: 10px;
+  }
+
+  .c-cv li {
+    list-style: none;
+  }
+  
+  .c-cv a {
+    background-color: transparent;
+    border: 2px solid #FA7268;
+    color: #FA7268;
+  }
+
+  .c-cv a:hover {
+    color: #fff;
+    background-color: #FA7268;
+}
